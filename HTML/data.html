@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../STYLES/data.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <img src="../ASSETS/inflow.png" alt="" class="headlogo">
+  </header>
+
+  <div class="dataDiv">
+    <h3 class="heading">Buy Data</h3>
+    
+    <select name="" id="serviceID" class="input">
+      <option value="" selected disabled>Select serviceID</option>
+      <option value="mtn-data">MTN</option>
+      <option value="glo-data">GLO</option> 
+      <option value="airtel-data">AIRTEL</option>
+      <option value="etisalat-data">9MOBILE</option>
+    </select>
+
+    <input type="text" class="input" placeholder="Enter phone number" id="phone">
+    <input type="text" class="input" placeholder="Amount"  id="amount">
+    <input type="text" id="variation_code" class="input"placeholder="data plan" >
+
+    <button class="buyData" id="buyData">Buy Data
+      <box-icon name="loader" animation="spin" type="solid" color="white" size="40px" style="display: none;" class="spinner"></box-icon>
+    </button>
+  </div>
+
+  <section class="status"></section>
+  
+  <footer class="footer">
+    <a href="home.html" class="bottom">
+      <box-icon name="home" type="solid"  size="30px" color="#065799"></box-icon>
+      <p>Home</p>
+    </a>
+
+
+    <a href="electricity.html" class="bottom">
+      <box-icon name="user" size="30px" type="solid" color="#065799"></box-icon>
+      <p>User</p>
+    </a>
+  </footer>
+
+
+  <script type="module" src="../SCRIPTS/data.js"></script>
+</body>
+</html>

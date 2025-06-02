@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri;
+  color: rgb(208, 210, 212);
+}
+
+body{
+  background:  rgb(12, 12, 12);
+  max-width: 480px;
+  margin: auto;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headlogo{
+  width: 170px;
+  position: sticky;
+}
+.header i{
+  font-size: 40px;
+  color: rgb(7, 75, 202);
+}
+
+.dashboard{
+  background: rgb(7, 95, 167); 
+  padding: 5px;
+  height: 25vh;
+  margin: 0 20px;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);;
+}
+.welcome{
+  text-align: center;
+  color: rgb(226, 226, 226);
+  font-size: 23px;
+  margin-top: 5px;
+}
+.span{
+  font-family: sans-serif;
+  color: black;
+  font-weight: 900;
+}
+.balanceDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.balance{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.balanceEl{
+  background: rgb(0, 0, 0);
+  border: none;
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+.transact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 70%;
+}
+.tr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: black;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+.tr label{
+  font-size: 15x;
+  color: rgb(255, 255, 255);
+}
+.serviceHeading{
+  text-align: center;
+  margin-top: 1rem;
+  color: rgb(188, 185, 192);
+}
+.services{
+  margin: 1rem 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section{
+  margin: 10px 20px;
+  height: fit-content;
+  border-radius: 8px;
+  padding: 19px;
+  background: black;
+}
+
+.footer{
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+ max-width: 450px;
+ background: rgba(23, 23, 24, 0.377);
+ backdrop-filter: blur(10px);
+ padding: 10px 0;
+}
+.section span {
+  color: rgb(164, 180, 194);
+  font-weight: bold;
+  line-height: 2;
+}
+
+.check{
+  background: green;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.service a{
+  border: none;
+  border-radius: 50%;
+  padding: 7px 10px;
+  background: rgb(22, 23, 26);
+}
+.service h4{
+  font-size: 13px;
+}
+
+.bottom{
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+}

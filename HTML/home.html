@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../STYLES/home.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>Home</title>
+</head>
+<body>
+  <header class="header">
+    <img src="../ASSETS/inflow.png" alt="" class="headlogo">
+  </header>
+
+  <div class="dashboard">
+    <h3 class="welcome">Welcome <span class="span" id="welcomeName">...</span>
+    </h3>
+
+    <div class="balanceDiv">
+      <button class="balanceEl">Balance</button>
+
+      <span class="balance" id="balance">₦...</span>
+
+      <div class="transact">
+        <div class="tr">
+          <box-icon name="plus" type="solid" color="#70ca07" size="20px"></box-icon>
+          <label onclick="window.location.href ='deposit.html' ">Fund Wallet</label>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="serviceHeading">Services</h3>
+
+
+  <div class="services">
+    <div class="service">
+      <a href="airtime.html">
+        <box-icon name="phone" type="solid" color="white" size="27px"></box-icon>
+      </a>
+      <h4>Airtime</h4>
+    </div>
+
+    <div class="service">
+      <a href="data.html">
+        <box-icon name="wifi" type="solid" color="white" size="27px"></box-icon>
+      </a>
+      <h4>Data</h4>
+    </div>
+
+    <div class="service">
+      <a href="cable.html">
+        <box-icon name="tv" type="regular" color="white" size="27px"></box-icon>
+      </a>
+      <h4>Cable</h4>
+    </div>
+
+    <div class="service">
+      <a href="electricity.html" class="">
+        <box-icon name="bulb" type="solid" color="white" size="27px"></box-icon>
+      </a>
+      <h4>Electricty</h4>
+    </div>
+
+    <div class="service">
+      <a href="https://wa.me/2348112959778">
+        <box-icon name="support" type="solid" color="white" size="27px"></box-icon>
+      </a>
+      <h4>Support</h4>
+    </div>
+  </div>
+
+
+
+  <div class="section">
+      <span class="check">&#10004;</span> <span class="sectionText">Airtime and data at discounted rates</span><br>
+      <span class="check">&#10004;</span> <span class="sectionText">Transparency - no hidden fees or charges</span><br>
+      <span class="check">&#10004;</span> <span class="sectionText">Simple, and easy to use interface</span><br>
+      <span class="check">&#10004;</span> <span class="sectionText">Finely polished UI and navigation</span>
+  </div>
+
+
+  
+  <footer class="footer">
+    <a href="home.html" class="bottom">
+      <box-icon name="home" type="solid"  size="30px" color="#2997f1"></box-icon>
+      <p>Home</p>
+    </a>
+
+
+    <a href="electricity.html" class="bottom">
+      <box-icon name="user" size="30px" type="solid" color="#2997f1"></box-icon>
+      <p>User</p>
+    </a>
+  </footer>
+
+  <script type="module" src="../SCRIPTS/home.js"></script>
+</body>
+</html>

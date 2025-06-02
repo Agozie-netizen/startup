@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri;
+  color: rgb(235, 237, 240);
+}
+
+body{
+  background:  rgb(12, 12, 12);
+  max-width: 480px;
+  margin: auto;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headlogo{
+  width: 170px;
+  position: sticky;
+}
+.deposit{
+   background: rgb(7, 95, 167); 
+  padding: 5px;
+  height: fit-content;
+  margin: 1rem 20px;
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  line-height: 30px;
+}
+.account-name{
+  color: rgb(203, 212, 203);
+  font-size: 17px;
+}
+
+.deposit h4 span{
+  color: rgb(3, 3, 3);
+  font-weight: bolder;
+}
+
+h3{
+  text-align: center;
+  color: rgb(175, 179, 182);
+}
+.rules{
+  margin: 10px 20px;
+  height: fit-content;
+  border-radius: 8px;
+  padding: 19px;
+  background: black;
+  font-size: 15px;
+  line-height: 2rem;
+}
+
+.check{
+  background: green;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.proceed{
+  text-align: center;
+  color: green;
+}
+
+.footer{
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ display: flex;
+ justify-content: space-around;
+ max-width: 450px;
+ background: rgba(23, 23, 24, 0.377);
+ backdrop-filter: blur(10px);
+ padding: 10px 0;
+ text-decoration: none;
+}
+.footer a{
+  text-decoration: none;
+  text-align: center;
+}

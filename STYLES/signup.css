@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri;
+  color: rgb(186, 195, 202);
+}
+
+body{
+  background: rgb(12, 12, 12);
+  max-width: 480px;
+  margin: auto;
+}
+
+/*For signup.html*/
+.img-logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width: 300px;
+  display: flex;
+  
+}
+
+.signup-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(6, 87, 153);
+  margin:0px 20px;
+  height: fit-content;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sign-up-heading{
+  font-size: 30px;
+}
+
+.input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  background: rgb(14, 13, 13);
+  border: none;
+  height: 3rem;
+  border-bottom: 2px solid white;
+  font-size: 1rem;
+}
+
+.input::placeholder{
+  color: rgb(171, 173, 175);
+
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.submit{
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  color: aliceblue;
+  transition: 0.3s ease-in-out;
+}
+.login{
+  color: black;
+  font-weight: 900;
+}
+
+.message{
+  color: rgb(255, 0, 0);
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

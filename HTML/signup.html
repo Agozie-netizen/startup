@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../STYLES/signup.css">
+  <title>Signup</title>
+</head>
+<body> 
+  <div class="img-logo">
+    <img src="../ASSETS/inflow.png" alt="" class="logo">
+  </div>
+
+  <div class="signup-div">
+    <h2 class="sign-up-heading">Create an account</h2>
+    <div class="message" id="signupMessage" style="display: none;"></div>
+    <form class="inputs">
+      <input class="input" placeholder="Enter Username"  type="text" id="fullname" required>
+      <input class="input" placeholder="Enter email address"  type="text" id="email" required>
+      <input class="input"placeholder="Enter phone number" type="text" id="phone" required>
+      <input class="input" placeholder="Enter passwword" type="text" id="password" required>
+
+      <button class="submit" id="signUp">Create an account</button>
+
+      <h3>Already have an account <a class="login" href="signin.html">Login</a></h3>
+    </form>
+  </div>
+
+  <script type="module" src="../SCRIPTS/signup.js"></script>
+</body>
+</html>

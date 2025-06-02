@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../STYLES/airtime.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="image">
+    <img src="../ASSETS/inflow.png" alt="Inflow Logo">
+  </div>
+
+  <div class="main">
+    <h2 class="heading">Buy Airtime</h2>
+
+      <input class="input" placeholder="Enter phone number" type="text" id="phone" required>
+
+      <input class="input" placeholder="Enter amount" type="number" id="amount" required>
+
+      <select id="network" class="input">
+
+        <option value="" disabled selected>Select Network</option>
+
+        <option value="mtn" class="input">MTN</option>
+
+        <option value="airtel" class="input">AIRTEL</option>
+
+        <option value="glo" class="input">GLO</option>
+
+        <option value="etisalat" class="input">9MOBILE</option>
+
+      </select>
+      <button class="buyAirtime" id="buyAirtime">Buy Airtime
+        <box-icon name="loader" animation="spin" type="solid" color="white" size="25px" style="display: none;" class="spinner"></box-icon>
+      </button>
+  </div>
+
+
+  <div class="status">
+    <h2 class="statusDisplay"></h2>
+  </div>
+
+
+  <footer class="footer">
+    <a href="home.html" class="bottom">
+      <box-icon name="home" type="solid"  size="30px" color="#2997f1"></box-icon>
+      <p>Home</p>
+    </a>
+
+
+    <a href="electricity.html" class="bottom">
+      <box-icon name="user" size="30px" type="solid" color="#2997f1"></box-icon>
+      <p>User</p>
+    </a>
+  </footer>
+
+   <script type="module" src="../SCRIPTS/airtime.js"></script>
+</body>
+</html> 
